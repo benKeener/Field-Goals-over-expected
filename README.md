@@ -9,7 +9,11 @@ NFL data used is from nflfastR created by @benbaldwin and @mrcaseb and weather d
 
 # Refrences
 https://medium.com/@xzz201920/xgbosst-booster-gbtree-v-s-dart-v-s-gblinear-82d8fcbb07d2
+
 https://www.hackerearth.com/practice/machine-learning/machine-learning-algorithms/beginners-tutorial-on-xgboost-parameter-tuning-r/tutorial/
+
 https://github.com/mrcaseb/nflfastR
+
 https://github.com/z-feldman
+
 https://github.com/ThompsonJamesBliss
