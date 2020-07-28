@@ -1,4 +1,5 @@
 library(tidyverse)
+library(glue)
 
 #Load the data from nflscrapR
 
@@ -19,7 +20,8 @@ pbp <- pbp %>%
 #Filter to only field goals
 
 FG <- pbp %>%
-  filter(play_type == "field_goal")
+  filter(play_type == "field_goal") %>%
+  filter(field_goal_result != "blocked")
 
 #Load weather data
 
