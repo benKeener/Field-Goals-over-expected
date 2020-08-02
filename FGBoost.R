@@ -62,7 +62,7 @@ test$prediction <- xgb_predict
 test <- test %>% 
   mutate(error = success - prediction)
 
-#Predict fg put come on full set of data
+#Predict fg outcome on full set of data
 
 full_model <- xgboost(params = params, data = FGOE_full, nrounds = nrounds, verbose = 2)
 
